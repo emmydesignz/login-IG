@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: white;
+
+}
+
+.all{
+    display: flex;
+    gap: 2rem;
+    /* justify-content: space-between; */
+}
+
+.phone img{
+    width: 300px;
+    margin-top: 3rem;
+    margin-left: 17rem;
+}
+
+.form h1{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.form form{
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+form{
+    border: 1px solid rgba(128, 128, 128, 0.345);
+    border-radius: 3px;
+    padding: 22px;
+    width: 300px;
+    height: 320px;
+}   
+
+input{
+    background-color: rgba(128, 128, 128, 0.096);
+    border: 1px solid rgba(128, 128, 128, 0.345);
+    border-radius: 7px;
+    height: 30px;
+    padding-left: 10px;
+    width: 250px;
+    display: flex;
+    margin-top: 4px;
+}
+
+.btn{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    justify-content: center;
+    padding: 0;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+h5{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(66, 66, 105);
+}
+
+.login{
+    margin-left: 2rem;
+    font-size: x-small;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+
+.f-password{
+    font-size: x-small;
+    margin-top: 1rem;
+    color: rgb(66, 66, 105);
+    margin-left: 75px;
+}
+
+.login img{
+    width: 20px;
+    margin-right: 1rem;
+}
+.acc{
+    height: 50px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.345);
+}
+
+.acc h5 a{
+    margin-top: 0;
+}
+
+.get h5{
+}
+.store{
+    display: flex;
+}
+
+.store #play{
+    margin-left: 5rem;
+    height: 44px;
+    margin-top: 8px;
+}
+
+.store img{
+    width: 80px;
+    margin-top: 15px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    font-size: xx-small;
+    list-style: none;
+    margin-bottom: 13px;
+    margin-top: 1rem;
+    color: rgb(66, 66, 105);
+}
+
+@media screen and (max-width: 768px) {
+    .phone img{
+        display: none;
+    }
+
+    h1{
+        font-size: small;
+    }
+
+    .form form{
+        margin-top: 7rem;
+        margin-left: 4rem;
+    }
+
+    form{
+        height: 240px;
+        width: 200px;
+        margin-left: 4rem;
+    }
+
+    .acc{
+        margin-left: 4rem;
+        width: 200px;
+    }
+   
+    .acc h5{
+        font-size: x-small;
+        text-align: center;
+    }
+
+    .get h5{
+        text-align: center;
+        margin-left: 7rem;
+    }
+
+    .login{
+        font-size: xx-small;
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .f-password{
+        font-size: xx-small;
+        width: 150px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .form{
+        width: 200px;
+    }
+
+    input{
+        padding-left: 1px;
+        font-size: xx-small;
+        width: 150px;
+        height: 20px;
+        border-radius: 2px;
+        border: none;
+    }
+
+    .store #play{
+        margin-left: 5rem;
+        height: 45px;
+    }
+
+    .store{
+        height: 35px;
+    }
+
+    .btn{
+        font-size: xx-small;
+        border: none;
+        margin-left: 45px;
+        border-radius: 3px;
+        width: 60px;
+        height: 15px;
+        margin-top: 8px;
+    }
+
+    .footer ul li{
+        font-size: xx-small;
+        list-style: none;
+        display: none;
+        margin-bottom: 13px;
+        margin-top: 1rem;
+        color: rgb(66, 66, 105);        
+    }
+}

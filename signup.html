@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .form{
+        margin: 80px 400px ;
+    }
+
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .form form{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+
+
+    .btn{
+        background-color: rgb(62, 62, 231);
+        height: 35px;
+        width: 40%;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: 100;
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    
+    .btn:hover{
+        transform: scale(1.1);
+        transition: 0.5s all ease-in-out;
+        background-color: darkblue;
+    }
+
+    
+</style>
+<body>
+    <div class="form">
+        <form action="">
+            <h1>Instagram</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter full name" required>
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="username" required>
+            
+            <label for="password">Enter password</label>
+            <input type="password" id="password" placeholder="" required>
+            
+            <label for="phone number">Enter phone number</label>
+            <input type="tel" id="phone number" placeholder="" required>
+            
+            <label for="Confirm password">Confirm password</label>
+            <input type="password" id="Confirm password" placeholder="" required>
+    
+
+                <button type="submit" class="btn">Sign up</button>
+    </div>
+        
+    
+</body>
+</html>
